@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+  background: rgb(247, 241, 241);
+
+}
+div{
+    background-color: rgb(182, 185, 185);
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    margin: 100px;
+    margin-left: 25%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 7px rgb(74, 73, 73);
+}
+h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#num{
+ width: 200px;
+ height: 20px;
+ border-radius: 5px;
+}
+.bt{
+  width: 25%;
+  height: 5vh;
+  border-radius: 5px;
+  
+}

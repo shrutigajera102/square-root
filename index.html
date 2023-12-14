@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>SQUARE ROOT CALCULATOR</h1>
+   Enter a number : <input id="num" type="number">
+
+   <button class="bt" onclick="square()" >calculate square root</button>
+
+   <h2 id="result"></h2>
+    
+</div>
+
+<script>
+function square(){
+    var num=parseFloat(document.getElementById("num").value);
+
+    var userSquareRoot = Math.sqrt(num);
+  document.getElementById("result").innerHTML = "square root of " + num + " = " + userSquareRoot;
+}
+
+</script>
+
+
+</body>
+</html>
